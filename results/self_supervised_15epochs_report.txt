@@ -1,0 +1,42 @@
+SELF-SUPERVISED TEMPORAL-SHIFT EXPERIMENT
+Dataset: CIC-Darknet2020 (Darknet.CSV)
+Training period: before 2016-02-24
+Testing period: 2016-02-24 onward
+Random seed: 42
+Training rows: 60778
+Testing rows: 66731
+Input features: 64
+Latent dimensions: 16
+Epochs: 15
+Final reconstruction loss: 0.046696
+Accuracy: 0.8645
+Macro-F1: 0.4860
+
+Reconstruction loss by epoch:
+Epoch 1: 0.514009
+Epoch 2: 0.212540
+Epoch 3: 0.144271
+Epoch 4: 0.111001
+Epoch 5: 0.094443
+Epoch 6: 0.083294
+Epoch 7: 0.075426
+Epoch 8: 0.069634
+Epoch 9: 0.064793
+Epoch 10: 0.060400
+Epoch 11: 0.056201
+Epoch 12: 0.052890
+Epoch 13: 0.050380
+Epoch 14: 0.048397
+Epoch 15: 0.046696
+
+Classification report:
+                 precision    recall  f1-score   support
+
+audio-streaming     0.0622    0.1349    0.0851      2002
+       browsing     0.8876    0.9633    0.9239     23020
+  file-transfer     0.0107    0.0995    0.0194       211
+            p2p     0.9937    0.8488    0.9155     41498
+
+       accuracy                         0.8645     66731
+      macro avg     0.4885    0.5116    0.4860     66731
+   weighted avg     0.9260    0.8645    0.8907     66731
