@@ -1,0 +1,13 @@
+# Core data processing and numerical computing
+numpy
+pandas
+
+# Machine learning and self-supervised autoencoder
+scikit-learn
+torch
+
+# Dashboard and visualizations
+streamlit
+plotly
+matplotlib
+seaborn

@@ -1,0 +1,19 @@
+TEMPORAL BASELINE
+Training: before 2016-02-24
+Testing: 2016-02-24 onward
+Training rows: 60778
+Testing rows: 66731
+Features: 64
+Accuracy: 0.7780
+Macro-F1: 0.3845
+
+                 precision    recall  f1-score   support
+
+audio-streaming       0.01      0.01      0.01      2002
+       browsing       0.91      0.51      0.65     23020
+  file-transfer       0.01      0.03      0.01       211
+            p2p       0.77      0.97      0.86     41498
+
+       accuracy                           0.78     66731
+      macro avg       0.43      0.38      0.38     66731
+   weighted avg       0.79      0.78      0.76     66731

@@ -1,0 +1,52 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, coverage, and type-checking caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings (keep project files, ignore personal workspace state)
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# NOTE:
+# Do not ignore data/ or results/ globally here.
+# Check dataset redistribution permissions before publishing Darknet.CSV.
+# Review result files and screenshots before committing them.
+
+# Dataset files - do not upload the large dataset
+data/
+
+# Backup folders
+results_backup_before_day3_20261022/
+results_backup_final_20261024_121226/
+results_backup_latest_20261026/

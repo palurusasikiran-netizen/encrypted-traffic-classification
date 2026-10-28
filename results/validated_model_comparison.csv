@@ -1,0 +1,4 @@
+Model,Accuracy (%),Macro-F1 (%)
+Fair Temporal Baseline,77.8139,38.5675
+Self-Supervised Seed 42,86.4741,48.8054
+Self-Supervised Seed 123,86.3212,48.431
